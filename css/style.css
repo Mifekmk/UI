@@ -1,0 +1,100 @@
+html, body{
+    width:100%;
+    height: 100%; 
+}
+
+body {
+    
+    font-family: 'GmarketSansMedium';
+    background-color: skyblue;
+    color: black;
+    
+    
+}
+
+
+
+
+.intro_saying{
+	background-color: antiquewhite;
+	height: 150px;
+	
+}
+
+.intro_saying p{
+	 position: absolute;
+    font-size: 50px;
+    line-height: 1;
+    margin-left: 550px;
+}
+
+.result{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.result .result_wrap{
+    font-size: 20px;
+}
+
+.result span {
+    padding: 0 20px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    font-size:70px;
+}
+
+.result .result_buttons{
+    
+    padding:100px
+}
+
+.start .start_wrap .start_button{
+    width: 200px;
+    height: 50px;
+    border:none;
+    background-color: #FCEE;
+    font-size:20px;
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button{
+  text-align: center;
+  height: 500px;
+  width: 500px;
+  border: none;
+  background-color: aqua;
+  padding: 14px 14px;
+  font-size: 30px;
+}
+
+
+
+.text-center1 {
+  text-align: center;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: greenyellow;
+  padding: 14px 14px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.text-center2 {
+  text-align: center;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: greenyellow;
+  padding: 14px 14px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+}
